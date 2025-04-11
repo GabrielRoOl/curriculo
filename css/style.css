@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .listra {
+    height: 2px;
+    background-color: black;
+  }
+  .titulo {
+    text-align: center;
+    margin-top: 1.6rem;
+  }
+  .titulo h2{
+      margin-bottom: 2rem;
+  }
+  .contatos {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .contatos li {
+    font-size: 1rem;
+  }
+  .paginacao {
+    background-color: white;
+    width: 210mm;
+    min-height: 297mm;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+  }
+  .item-formacao{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+  }
+  .item-experiencia{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+  }
+  .direita{
+      text-align: right;
+  }
+  .atribuicoes{
+      margin: -1rem 3rem 0;
+  }
+  .item-habilidade{
+      
+  }
+  .footer{
+      text-align: center;
+      padding-left: 1.5rem 1rem;
+      font-size: 0.9rem;
+      color: #888;
+  }
+  .footer blockquote{
+      font-style: italic;
+      color: #aaa;
+      margin: 0;
+  }
+  
